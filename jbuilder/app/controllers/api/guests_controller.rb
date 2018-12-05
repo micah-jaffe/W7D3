@@ -1,6 +1,6 @@
 class Api::GuestsController < ApplicationController
   def index
-    @guests = Guest.all
+    @guests = Guest.includes(:gifts).all
     render :index
   end
 
