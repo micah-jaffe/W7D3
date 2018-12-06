@@ -4,5 +4,3 @@ export const fetchAllPokemon = () => (
     url: '/api/pokemon'
   })
 );
-
-export default fetchAllPokemon;
